@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pokecard from './Pokecard';
+import '../static/css/pokedex.css'
 
 const pokemonData = [
     {
@@ -53,20 +54,24 @@ const pokemonData = [
 ]
 
 class Pokedex extends Component {
-    state = {  }
-    render() { 
-        let pokecard = pokemonData.map(pokemon => <Pokecard 
+    state = {}
+    render() {
+        let pokecard = pokemonData.map(pokemon => <Pokecard
             id={pokemon.id}
             name={pokemon.name}
             type={pokemon.type}
             exp={pokemon.exp}
         />)
-        return ( 
-            <div className="pokedex">
-                {pokecard}
+        return (
+            <div className="pokedex-container">
+                <h1 className="pokedex-title">Pokedex</h1>
+                <div className="pokedex">
+                    {pokecard}
+                </div>
             </div>
+
         );
     }
 }
- 
+
 export default Pokedex;
