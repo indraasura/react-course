@@ -1,0 +1,18 @@
+.die{
+  display: inline-block;
+  font-size: 10em;
+  margin: 5%;
+  position: relative;
+  left: 33%;
+  color: rgb(97, 179, 255);
+}
+
+button{
+  padding: 1em;
+  color: white;
+  background: rgb(2, 2, 54);
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  left: 48%;
+}
