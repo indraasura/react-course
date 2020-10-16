@@ -4,15 +4,22 @@
   margin: 5%;
   position: relative;
   left: 33%;
-  color: rgb(97, 179, 255);
+  color: darkslateblue;
 }
 
+
 button{
-  padding: 1em;
+  padding: 1.5em;
   color: white;
-  background: rgb(2, 2, 54);
+  width: 15em;
+  background: black;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   position: relative;
-  left: 48%;
+  left: 45%;
+}
+
+button:hover{
+  background: darkslateblue;
+  cursor: pointer;
 }
