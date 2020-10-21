@@ -1,0 +1,24 @@
+.wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.coin img{
+  width: 300px;
+  height: 300px;
+}
+
+button{
+  margin: 1em;
+  padding: 1em;
+  width: 40%;
+  background: rgb(2, 59, 2);
+  color: white;
+  border: none;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
